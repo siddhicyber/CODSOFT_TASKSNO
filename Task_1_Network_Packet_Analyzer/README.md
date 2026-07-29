@@ -1,44 +1,41 @@
-# CODSOFT Cyber Security Internship Tasks
+# Task 1: Network Packet Analyzer
 
-## About Repository
-This repository contains cybersecurity projects completed during the CODSOFT Cyber Security Internship. The projects cover different areas of cybersecurity including network analysis, phishing awareness, secure coding, intrusion detection, and secure file sharing.
+## Project Description
+This project is a Network Packet Analyzer developed using Python. It captures and analyzes network packets to display important details such as source IP address, destination IP address, protocol type, and packet information.
 
-## Tasks Completed
+## Objective
+- Capture network packets.
+- Analyze network traffic.
+- Extract important packet details.
+- Understand basic network protocols.
 
-### Task 1: Network Packet Analyzer
-- Developed using Python and Scapy.
-- Captures and analyzes network packets.
-- Displays source IP, destination IP, protocol details, and packet information.
+## Technologies Used
+- Python 3
+- Scapy Library
 
-### Task 2: Phishing Awareness Training
-- Created a cybersecurity awareness presentation.
-- Explains phishing attacks, types, examples, and prevention methods.
+## Installation
+Install the required library using the command:
 
-### Task 3: Secure Code Review
-- Performed security analysis of application source code.
-- Used Bandit static analysis tool.
-- Identified vulnerabilities and suggested secure coding practices.
+pip install scapy
 
-### Task 4: Network Intrusion Detection System
-- Implemented intrusion detection concepts using Snort/Suricata.
-- Created rules and analyzed suspicious network activities.
+## How to Run
+Run the program using:
 
-### Task 5: Secure File Sharing System
-- Developed a secure file-sharing application using Python and Flask.
-- Includes authentication and secure file transfer features.
+python packet_analyzer.py
 
-## Skills Learned
-- Python Programming
-- Network Security
-- Vulnerability Analysis
-- Secure Coding
-- Intrusion Detection
-- Cybersecurity Fundamentals
+## Features
+- Captures live network packets.
+- Displays source and destination IP addresses.
+- Identifies network protocols.
+- Provides packet details for analysis.
 
-## Tools & Technologies
-- Python
-- Scapy
-- Flask
-- Bandit
-- Snort/Suricata
-- GitHub
+## Output
+The program captures network packets and displays the analyzed information in the terminal.
+
+## Learning Outcome
+- Learned network packet capturing using Python.
+- Understood basic network protocols.
+- Gained knowledge about network traffic analysis.
+
+## Author
+Siddhi
